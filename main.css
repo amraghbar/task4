@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+a {
+    text-decoration: none;
+
+}
+
+.conta {
+    width: 80%;
+    margin: auto;
+   
+}
+
+/*  */
+.nav {
+    background-color: black;
+    position: sticky;
+    width: 100%;
+    top: 0%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav .conta
+{
+    display: flex;
+    justify-content: space-between;
+}
+.loge {
+    margin-top: 5px;
+}
+
+.loge img {
+
+    width: 200px;
+    height: 50px;
+
+}
+
+.nav ul {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+
+}
+
+.nav ul {
+    list-style-type: none;
+
+}
+
+.nav ul li {
+    margin-right: 15px;
+
+}
+
+.nav ul a {
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.test {
+    padding: auto;
+    background-image: url(img/header-bg.jpg);
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    line-height: 40px;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.word {
+    width: 100%;
+}
+
+.word h2,
+.p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    padding-left: 10px;
+}
+
+.test .word .p {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+
+
+.test a {
+    background-color: yellow;
+    width: 250px;
+    size: 30%;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 10px;
+    border-color: yellow;
+    text-transform: uppercase;
+}
+
+/*  */
+.SERVICES {
+    background-color: rgba(242, 173, 173, 0.393);
+    text-align: center;
+    text-transform: capitalize;
+    overflow: hidden;
+    padding-bottom: 5%;
+}
+.SERVICES h2 {
+    padding-top: 40px;
+    font-weight: 600;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-display: inherit;
+}
+.SERVICES p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: unset;
+    padding-top: 100px;
+    
+}
+.sev-item{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.serv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33.33%;
+    padding-top: 60px;
+}
+.serv .radius {
+    background-color: yellow;
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    padding-top: 80px;
+    margin: auto;
+}
+.serv i {
+    font-size: 100px;
+    color: white;
+}
+.serv h3 {
+    display: flex;
+    padding-top: 45px;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*  */
+.potfor {
+    padding-top: 60px;
+    background-color: rgba(236, 236, 236, 0.903);
+    text-align: center;
+    text-transform: uppercase;
+}
+.potfor .conta{
+    display: flex;
+flex-direction: column;
+
+}
+
+.potfor .fimg{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+
+.potfor h2 {
+    padding-bottom: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.po-ite {
+display: flex;
+    width: 33.33%;
+    padding-right: 10px;
+    background-color: rgb(236, 236, 236, 0.903);
+
+}
+
+.potfor img {
+    display: flex;
+    width: 100%;
+}
